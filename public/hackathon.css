@@ -1,0 +1,52 @@
+body {
+  font-family: "Agrandir", sans-serif;
+  font-size: 1.2em;
+  font-weight: 500;
+  line-height: 1.5;
+  color: whitesmoke;
+  margin: 1em;
+  padding: 1em 1em 0 2em;
+  background-image: linear-gradient(
+      rgba(20, 27, 49, 0.8),
+      rgba(20, 27, 49, 0.8)
+    ),
+    url("./assert/images/im5.jpeg");
+  background-color: darkslategrey;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+nav ul {
+  display: flex;
+  justify-content: right;
+  list-style: none;
+  gap: 2.5em;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 1.3em;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  font-size: 2.5em;
+  font-weight: bolder;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1.8em;
+  font-style: oblique;
+}
+
+.introduction p {
+  float: left;
+  width: 50%;
+  margin-right: 1em;
+}
