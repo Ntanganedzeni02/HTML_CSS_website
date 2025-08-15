@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en"> 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beyond the Classroom</title>
     <link href="https://api.fontshare.com/v2/css?f[]=agrandir@1&display=swap" rel="stylesheet">
     <link href="https://api.fontshare.com/v2/css?f[]=agrandir@400,700&display=swap" rel="stylesheet">
@@ -10,127 +10,238 @@
 
 
     <style>
+     body {
+        font-family: "Agrandir", sans-serif;
+        font-size: 1.2em;
+        font-weight: 500;
+        line-height: 1;
+        padding-top: 10px;
+        background-image: linear-gradient(
+            rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.5)
+          ),
+          url("../assert/images/OIP.webp");
+        background-color: darkslategrey;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+      }
 
-        body {
-            font-family: 'Agrandir', sans-serif;
-            font-size: 1.2em;
-            font-weight: 500;
-            line-height: 1.5;
-            color: whitesmoke;
-            margin: 1em;
-            padding: 1em 1em 0 2em;
-            background-image: linear-gradient(rgba(20, 27, 49, 0.8), rgba(20, 27, 49, 0.8)), url('./assert/images/im5.jpeg');
-            background-color: darkslategrey;
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
+      footer {
+        clear: both;
+      }
+
+      header {
+        background-color: #1e3a8a;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        padding-right: 1em;
+      }
+
+
+       nav ul {
+        display: flex;
+        justify-content: right;
+        list-style: none;
+        gap: 2.5em;
+      }
+
+      nav li a {
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+        font-size: 1em;
+      }
+
+      main {
+        padding: 1em;
+        margin: 1em 1em 0 1em;
+      }
+
+     h1 {
+        text-align: center;
+        color: #1e3a8a;
+        font-size: 2.5em;
+        font-weight: bolder;
+      }
+
+      h3 {
+        color: #111827;
+        font-size: 1.3em;
+        font-weight: 600;
+        font-weight: bold;
+      }
+
+    .leadership {
+        display: flex;
+        flex-direction: column;
+        font-style: oblique;
+        align-items: center;
+        align-self: center;
+        color: #111827;
+        margin-bottom: 50px;
+    }
+
+    .leadership img {
+         width: 80%;
+         height: auto;
+         margin: 0 auto;
+    }
+
+        .experiences {
+            background: transparent;
         }
 
-        footer {
-            clear: both;
-        }
-
-        nav ul{
+        .experience {
             display: flex;
-            justify-content: right;
-            list-style: none;
-            gap: 2.5em;
-        }
-
-        nav li a {
-            text-decoration: none;
-            color: black;
-            font-weight: 600;
-            font-size: 1.3em;
-        }
-    
-        h1 {
-            text-align: center;
-            color: black;
-            font-size: 2.5em;
-            font-weight: bolder;
-        }
-
-        h3 {
-            color: black;
-            font-size: 1.3em;
-            font-weight: 600;
-            font-weight: bold;
-        }
-
-        .experience img {
-            float: left !important;
-            width: 40%;
-        }
-
-        div {
+            flex-direction: row;
             align-items: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            padding: 1em;
-            margin: 2em 2em 0 2em;
+            justify-content: space-between;
+            background: #f9fafb;
+            border-radius: 2px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1.5em;
         }
+        .experience img {
+        width: 100%;
+        object-fit: cover; 
+        height: 300px
+      }
 
+      .experience-content {
+        padding: 1em;
+        flex-grow: 1; /* allows content to fill available space */
+      }
 
+      .experience h3 {
+        /*font-size: 1em;*/
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 0.5em;
+        font-weight: bold;
+      }
+
+      .experience p {
+        font-size: 0.95em;
+        line-height: 1.4;
+        color: #111827;
+        text-align: center;
+      }
+      
     </style>
-</head>
-<body>
-
-    <nav>
+  </head>
+  <body>
+    <header>
+      <nav>
         <ul>
-            <li><a href="leadership.html">Leadership</a></li>
-            <li><a href="tutoring.html"> Tutoring</a></li>
-            <li><a href="hackathon.html"> Hackathons</a></li>
-            <li><a href="../index.html"> Home</a></li>
+          <li><a href="leadership.html">Leadership</a></li>
+          <li><a href="tutoring.html"> Tutoring</a></li>
+          <li><a href="hackathon.html"> Hackathons</a></li>
+          <li><a href="../index.html"> Home</a></li>
         </ul>
-    </nav>
+      </nav>
+    </header>
 
-    <h1>My Leadership Journey in Tech Communities</h1>
-    <div>
-        <img src="../assert/images/gkss.jpg" alt="My image with the president Cyril Ramaphosa" style="width: 80%; height: auto;">
-        <p>Leadership for me wasn’t just about titles, it was about contributing to something bigger than myself. I stepped into various roles that challenged me to grow, support my peers, and build tech spaces that were more inclusive, collaborative, and empowering.</p>
-    </div>
+    <main>
+      <h1>My Leadership Journey in Tech Communities</h1>
+      <div class="leadership">
+        <img
+          src="../assert/images/leadership1.jpg" alt="My image with the president Cyril Ramaphosa" style="width: 80%; height: auto"
+        />
+        <p>My leadership journey reflects my ability to inspire and create impact. I have served as Secretary and Vice President of the UWC IT Society, Chairperson of Geekulcha Student Society, and a leader in Women in Computer Science. These roles have strengthened my communication, project management, and teamwork skills while enabling me to mentor and motivate others. <br>
+            <br>
+          Leadership for me wasn’t just about titles, it was about contributing
+          to something bigger than myself. I stepped into various roles that
+          challenged me to grow, support my peers, and build tech spaces that
+          were more inclusive, collaborative, and empowering.
+        </p>
+      </div>
 
-    <div class="experience">
-        <div>
-            <img src="../assert/images/gkss (2).jpg" alt="Leadership photo" style="width: 40%; height: auto;">
-            <h3>chairperson, Geekulcha student society-UWC 2025</h3>
-            <p>I was honored to be given the opportunity by Geekulcha to establish the UWC Chapter of the Geekulcha Student Society, not as a founder, but as a trusted leader to drive it forward.</p>
-            <ul>
-                <li>Led the official launch and setup of the UWC Chapter</li>
-                <li>Collaborated with Geekulcha HQ and UWC to align activities with national innovation goals</li>
-                <li>Ran workshops, talks, and outreach programs focused on tech innovation and youth skills</li>
-            </ul>
+      <div class="experiences">
+      <div class="experience">
+          <img
+            src="../assert/images/gkss (2).jpg"
+            alt="Leadership photo"
+            style="width: 40%; height: auto"
+          />
+        <div class="experience-content">
+          <h3>chairperson, Geekulcha student society-UWC 2025</h3>
+          <p>
+            I was honored to be given the opportunity by Geekulcha to establish
+            the UWC Chapter of the Geekulcha Student Society, not as a founder,
+            but as a trusted leader to drive it forward.
+          </p>
+          <ul>
+            <li>Led the official launch and setup of the UWC Chapter</li>
+            <li>
+              Collaborated with Geekulcha HQ and UWC to align activities with
+              national innovation goals
+            </li>
+            <li>
+              Ran workshops, talks, and outreach programs focused on tech
+              innovation and youth skills
+            </li>
+          </ul>
+        </div>
         </div>
 
-        <div>
-            <img src="../assert/images/ntang.jpg" alt="UWC IT Society picture" style="width: 40%; height: auto;">
-            <h3>Vice President, UWC IT Society 2024</h3>
-            <ul>
-                <li>Oversaw major tech events and hackathons in collaboration with local partners</li>
-                <li>Mentored new society members and helped expand community outreach</li>
-                <li>Contributed to shaping the society’s vision and strategy for the year</li>
-            </ul>
+        <div class="experience">
+             <img
+            src="../assert/images/ntang.jpg" alt="UWC IT Society picture" style="width: 40%; height: auto"/>
+            <div class="experience-content">
+          <h3>Vice President, UWC IT Society 2024</h3>
+          <ul>
+            <li>
+              Oversaw major tech events and hackathons in collaboration with
+              local partners
+            </li>
+            <li>
+              Mentored new society members and helped expand community outreach
+            </li>
+            <li>
+              Contributed to shaping the society’s vision and strategy for the
+              year
+            </li>
+          </ul>
+        </div>
         </div>
 
-        <div>
-            <img src="../assert/images/wics.jpg" alt="Women in Computer Science picture" style="width: 40%; height: auto;">
-            <h3>Secretary, UWC Women In Computer science 2023 <br>
-                Secretary, UWC IT Society 2023
-            </h3>
-            <ul>
-                <li>Assisted in planning and organizing society events and workshops</li>
-                <li>Maintained internal communication and records</li>
-                <li>Helped build the society’s digital presence and documentation</li>
-            </ul>
+
+        <div class="experience">
+            <img
+            src="../assert/images/wics.jpg"
+            alt="Women in Computer Science picture"
+            style="width: 40%; height: auto"
+          />
+
+        <div class="experience-content">
+          <h3>
+            Secretary, UWC Women In Computer science 2023 <br />
+            Secretary, UWC IT Society 2023
+          </h3>
+          <ul>
+            <li>
+              Assisted in planning and organizing society events and workshops
+            </li>
+            <li>Maintained internal communication and records</li>
+            <li>
+              Helped build the society’s digital presence and documentation
+            </li>
+          </ul>
         </div>
+         </div>
 
-    </div>
+      </div>
+      </div>
+      
+    </main>
+  </body>
 
-    </body>
-
-    <footer>
-        <p>&copy; 2025 My Web Page. All rights reserved.</p>
-    </footer>
+  <footer>
+    <p>&copy; 2025 My Web Page. All rights reserved.</p>
+  </footer>
 </html>

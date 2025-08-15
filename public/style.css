@@ -2,15 +2,31 @@ body {
   font-family: "Agrandir", sans-serif;
   font-size: 1.2em;
   font-weight: 500;
-  line-height: 1.5;
-  color: whitesmoke;
-  margin: 1em;
-  padding: 1em 1em 0 2em;
-  background-image: linear-gradient(rgba(20, 27, 49, 0.8),rgba(20, 27, 49, 0.8)), url("../assert/images/im5.jpeg");
+  line-height: 1;
+  padding-top: 10px;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("../assert/images/OIP.webp");
   background-color: darkslategrey;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+
+footer {
+  clear: both;
+}
+
+header {
+  background-color: #1e3a8a;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding-right: 1em;
 }
 
 nav ul {
@@ -22,14 +38,19 @@ nav ul {
 
 nav li a {
   text-decoration: none;
-  color: black;
+  color: white;
   font-weight: 600;
-  font-size: 1.3em;
+  font-size: 1em;
+}
+
+main {
+  padding: 1em;
+  margin: 1em 1em 0 1em;
 }
 
 h1 {
   text-align: center;
-  color: black;
+  color: #1e3a8a;
   font-size: 2.5em;
   font-weight: bolder;
 }
@@ -80,7 +101,7 @@ h1 {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-color: black;
+  background-color: goldenrod;
   border: 4px solid white;
   z-index: 1;
 }
@@ -95,7 +116,7 @@ h1 {
 
 h3 {
   margin: 0;
-  color: #000;
+  color: #111827;
 }
 
 h4 {
