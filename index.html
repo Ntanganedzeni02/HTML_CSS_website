@@ -4,205 +4,57 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beyond the Classroom</title>
-    <link
-      href="https://api.fontshare.com/v2/css?f[]=agrandir@1&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://api.fontshare.com/v2/css?f[]=agrandir@400,700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://api.fontshare.com/v2/css?f[]=agrandir@400,700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css" />
+ </head>
+ 
+ <body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="public/leadership.html">Leadership</a></li>
+        <li><a href="public/tutoring.html">Tutoring</a></li>
+        <li><a href="public/hackathon.html">Hackathons</a></li>
+        <li><a href="index.html">Home</a></li>
+    </nav>
+  </header>
 
-    <style>
-      body {
-        font-family: "Agrandir", sans-serif;
-        font-size: 1.2em;
-        font-weight: 500;
-        line-height: 1;
-        padding-top: 10px;
-        background-image: linear-gradient(
-            rgba(255, 255, 255, 0.5),
-            rgba(255, 255, 255, 0.5)
-          ),
-          url("./assert/images/OIP.webp");
-        background-color: darkslategrey;
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-      }
+<main>
+  <h1 class="fade-in">University Experience Beyond the Classroom</h1>
+  <section class="intro fade-in">
+    <img src="./assert/images/lead2.jpg" alt="University photo of me" />
+    <p> Good day, my name is Ntanganedzeni Phidzaglima. I am a passionate and driven individual who thrives on turning challenges into opportunities. I am deeply committed to continuous learning, innovation, and making a meaningful impact in both my field and my community. I believe in pushing boundaries, embracing new experiences, and inspiring others to believe in their potential. <br />
+      Throughout my university years, I explored more than just academics. From tutoring peers and competing in hackathons to leading student initiatives, this is a look into how I grew inside and outside the lecture halls</p>
+  </section>
 
-      header {
-        background-color: #1e3a8a;
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 1000;
-        padding-right: 1em;
-      }
-
-      nav ul {
-        display: flex;
-        justify-content: right;
-        list-style: none;
-        gap: 2.5em;
-      }
-
-      nav li a {
-        text-decoration: none;
-        color: white;
-        font-weight: 600;
-        font-size: 1em;
-      }
-
-      main {
-        padding: 1em;
-        margin: 1em 1em 0 1em;
-      }
-
-      h1 {
-        margin-top: 60px;
-        text-align: center;
-        color: #1e3a8a;
-        font-size: 2.5em;
-        font-weight: bolder;
-      }
-
-      .intro {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-self: center;
-        margin-bottom: 1.5em;
-        font-style: oblique;
-        color: #111827;
-      }
-      .intro img {
-        width: 100%;
-        height: 800px;
-        object-fit: cover;
-        margin: 20px 0px 0px 0px;
-        padding: 0px;
-      }
-
-      .topics {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1.5em;
-        background: transparent;
-      }
-
-      .topic {
-        background: #f9fafb;
-        border-radius: 2px;
-        overflow: hidden;
-        box-shadow: 0 4px 8x rgba(0, 0, 0, 0.1);
-        display: flex;
-        flex-direction: column;
-        color: #111827;
-      }
-
-      .topic img {
-        width: 100%;
-        object-fit: cover; 
-        height: 300px
-      }
-
-      .topic-content {
-        padding: 1em;
-        flex-grow: 1;
-      }
-
-      .topic h3 {
-        font-weight: 600;
-        text-align: center;
-        margin-bottom: 0.5em;
-        font-weight: bold;
-      }
-
-      .topic p {
-        font-size: 0.95em;
-        line-height: 1.4;
-        color: #111827;
-        text-align: center;
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="./public/leadership.html">Leadership</a></li>
-          <li><a href="./public/tutoring.html"> Tutoring</a></li>
-          <li><a href="./public/hackathon.html"> Hackathons</a></li>
-          <li><a href="index.html"> Home</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <h1>University Experience Beyond the Classroom</h1>
-
-    <div class="intro">
-          <img
-            src="./assert/images/lead.jpg"
-            alt="University photo of me"
-          />
-          <p>Good day, my name is Ntanganedzeni Phidzaglima. I am a passionate and driven individual who thrives on turning challenges into opportunities. I am deeply committed to continuous learning, innovation, and making a meaningful impact in both my field and my community. I believe in pushing boundaries, embracing new experiences, and inspiring others to believe in their potential. <br>
-            <br>
-            Throughout my university years, I explored more than just academics.
-            From tutoring peers and competing in hackathons to leading student
-            initiatives, this is a look into how I grew inside and outside the
-            lecture halls
-          </p>
-        </div>
-
-    <main>
-
-      <div class="main">
-        
-
-        <div class="topics">
-          <div class="topic">
-            <img src="./assert/images/uwc.jpg" alt="Leadership picture" />
-            <div class="topic-content">
-              <h3>Leadership Roles</h3>
-              <p>
-                During my university journey, I had the privilege of serving in
-                multiple student tech societies, helping create spaces for
-                growth, collaboration, and innovation.
-              </p>
-            </div>
-          </div>
-
-          <div class="topic">
-            <img src="./assert/images/tutoring.jpg" alt="Tutoring picture" />
-            <div class="topic-content">
-              <h3>Tutoring</h3>
-              <p>
-                Tutoring was more than just helping others pass, it was about
-                creating safe academic spaces where students felt supported and
-                understood.
-              </p>
-            </div>
-          </div>
-
-          <div class="topic">
-            <img src="./assert/images/ibm.jpg" alt="Hackathon picture" />
-            <div class="topic-content">
-              <h3>Hackathons</h3>
-              <p>
-                Hackathons became a space where I pushed my limits, collaborated
-                with brilliant minds, and built real-world solutions under
-                pressure.
-              </p>
-            </div>
-          </div>
-        </div>
+  <section class="topics">
+    <div class="topic fade-in"> <img src="./assert/images/uwc.jpg" alt="Leadership" />
+      <div class="topic-content">
+        <h3>Leadership Roles</h3>
+        <p>During my university journey, I had the privilege of serving in multiple student tech societies, helping create spaces for growth, collaboration, and innovation.</p>
       </div>
-    </main>
-  </body>
+    </div>
 
-  <footer>
-    <p>&copy; 2025 My Web Page. All rights reserved.</p>
-  </footer>
+    <div class="topic fade-in"> <img src="./assert/images/tutoring.jpg" alt="Tutoring" />
+      <div class="topic-content">
+        <h3>Tutoring</h3>
+        <p>Tutoring was more than just helping others pass, it was about creating safe academic spaces where students felt supported and understood. </p>
+      </div>
+    </div>
+
+    <div class="topic fade-in"><img src="./assert/images/ibm.jpg" alt="Hackathon" />
+      <div class="topic-content">
+        <h3>Hackathons</h3>
+        <p>Hackathons became a space where I pushed my limits, collaborated with brilliant minds, and built real-world solutions under pressure.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+  <footer> <p>&copy; 2025 Beyond the Classroom. All rights reserved.</p> </footer>
+  <script src="script.js"></script>
+</body>
+</html>
+</main>
+</body>
 </html>

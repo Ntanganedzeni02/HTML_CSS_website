@@ -1,0 +1,74 @@
+@import url("../css/style.css");
+
+/* Intro Section */
+.leadership {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-style: oblique;
+  color: #111827;
+  margin-bottom: 50px;
+}
+
+.leadership img {
+  width: 80%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.leadership p {
+  max-width: 800px;
+  padding: 1em;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* Experience cards */
+.experiences {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.experience {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background: #f9fafb;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2em;
+}
+
+.experience img {
+  width: 40%;
+  min-width: 260px;
+  height: auto;
+  object-fit: cover;
+}
+
+.experience-content {
+  flex: 1;
+  padding: 1.5em;
+}
+
+.experience h3 {
+  color: var(--secondary);
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.experience p,
+.experience ul {
+  font-size: 0.95em;
+  line-height: 1.4;
+  color: #111827;
+  text-align: center;
+}
+
+.experience ul {
+  list-style: disc inside;
+  margin-top: 0.5em;
+}
