@@ -1,6 +1,5 @@
 @import url("../css/style.css");
 
-/* Intro Section */
 .leadership {
   display: flex;
   flex-direction: column;
@@ -24,7 +23,7 @@
   line-height: 1.5;
 }
 
-/* Experience cards */
+
 .experiences {
   max-width: 1000px;
   margin: 0 auto;
